@@ -1,0 +1,47 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}.image{
+    width: 200px;
+    height: 250px;
+}
+.product-wrapper{
+    z-index: 1;
+    margin: 90px 20px;
+    width:550px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    border:2px solid rgb(130, 216, 238);
+    border-radius:20px;
+    padding: 15px;
+    
+}
+.productsWrapper{
+    height: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.buttonStyle{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.iconStyle{
+    font-size: 30px;
+    color:rgb(130, 216, 238);
+}
+.text-wrapper{
+    width: 200px;
+    height: 180px;
+}
+.text-wrapper p{
+    width: 200px;
+    height: 90px;  
+    overflow: auto;
+    overflow-x: hidden; 
+}

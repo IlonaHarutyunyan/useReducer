@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MainPage from './components/MainPage';
+import { BaseDataContextProvider } from './Data/getData';
+import PopUp from './components/PopUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BaseDataContextProvider>
+      <MainPage/>
+    </BaseDataContextProvider>
+    
   </React.StrictMode>
 );
 
